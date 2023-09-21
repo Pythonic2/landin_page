@@ -142,10 +142,12 @@ section {
   visibility: visible;
   opacity: 1;
 }
+.botao1 .botao2{
+  border: 1px solid black;
 
+}
 /* Default btn sre-tyling */
 .btn {
-  border: none;
   padding: 15px 30px !important;
 }
 
@@ -158,6 +160,17 @@ section {
 .btn.btn-outline-white:hover {
   background: #fff;
   color: #2d71a1;
+}
+
+.btn2.btn-primary2 {
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  padding: 15px 30px !important;
+  background:  #3FBF4F;
+  background: linear-gradient(-45deg);
+  color: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn.btn-primary {
