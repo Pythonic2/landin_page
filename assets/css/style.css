@@ -99,7 +99,7 @@ section {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 1rem 0;
 }
 
 .section-heading {
@@ -643,10 +643,11 @@ section {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
+  background-color: #fff;
 }
 
 #header.header-scrolled {
-  background: rgba(39, 70, 133, 0.8);
+  background: #fff;
   height: 60px;
 }
 
@@ -676,6 +677,11 @@ section {
 /**
 * Desktop Navigation 
 */
+@media (min-width:738px){
+  .phone-1{
+    display: none;
+  }
+}
 .navbar {
   padding: 0;
 }
