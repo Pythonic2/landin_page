@@ -1022,10 +1022,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Footer CSS */
 .footer {
   padding: 5rem 0 2.5rem 0;
+  overflow-x: hidden; /* Prevenir barra de rolagem horizontal */
+}
+
+.container {
+  max-width: 1140px; /* ou qualquer outra largura máxima desejada */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer h3 {
@@ -1042,10 +1057,10 @@ section {
 }
 
 .footer .copyright {
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
-.footer .copyright,
 .footer .credits {
   font-size: 14px;
 }
